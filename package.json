@@ -1,0 +1,51 @@
+{
+  "name": "bookleis-tests.frontend",
+  "version": "1.0.0",
+  "description": "tests for bookleis",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack serve --hot --progress",
+    "build": "cross-env NODE_ENV=production webpack --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/uplabteam/bookleis-tests.frontend.git"
+  },
+  "author": "uplab",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/uplabteam/bookleis-tests.frontend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/plugin-proposal-class-properties": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "@babel/preset-react": "^7.12.13",
+    "autoprefixer": "^10.2.4",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.0.0",
+    "mini-css-extract-plugin": "^1.3.5",
+    "portfinder-sync": "0.0.2",
+    "postcss": "^8.2.4",
+    "postcss-loader": "^5.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.32.6",
+    "sass-loader": "^10.1.1",
+    "sass-resources-loader": "^2.1.1",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@csstools/normalize.css": "^11.0.1",
+    "core-js": "^3.8.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.7"
+  }
+}

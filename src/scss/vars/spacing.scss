@@ -1,0 +1,9 @@
+// Spacing sizes
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  8: 8,
+  16: 16,
+  24: 24,
+  32: 32,
+), $spacers);
