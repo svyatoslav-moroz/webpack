@@ -1,16 +1,15 @@
 {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "useBuiltIns": "usage",
-          "corejs": {
-            "version": "3.8"
-          }
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage",
+        "corejs": {
+          "version": "3.8"
         }
-      ],
-      "@babel/preset-react"
+      }
     ],
-    "plugins": ["@babel/plugin-proposal-class-properties"]
-  }
-  
+    "@babel/preset-react"
+  ],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
+}
