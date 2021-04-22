@@ -1,7 +1,7 @@
 {
-  "name": "bookleis-tests.frontend",
+  "name": "webpack-react",
   "version": "1.0.0",
-  "description": "tests for bookleis",
+  "description": "webpack react repo",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --hot --progress",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/uplabteam/bookleis-tests.frontend.git"
+    "url": "https://github.com/svyatoslav-moroz/webpack-react.git"
   },
-  "author": "uplab",
+  "author": "svyat.mordov",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/uplabteam/bookleis-tests.frontend#readme",
+  "homepage": "",
   "devDependencies": {
     "@babel/cli": "^7.12.13",
     "@babel/core": "^7.12.13",
